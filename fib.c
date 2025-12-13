@@ -23,7 +23,6 @@ int main(void) {
         return 1;
     }
 
-    // Initialize memo array with -1
     for (int32_t i = 0; i <= n; i++) {
         memo[i] = -1;
     }
