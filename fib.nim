@@ -1,3 +1,4 @@
+import std/os
 
 proc fib(n: int32, memo: var seq[int32]): int32 {.inline.} =
   if n < 2:

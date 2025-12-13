@@ -28,7 +28,7 @@ int main(void) {
     }
 
     int32_t acc = 0;
-    for (int32_t i = 0; i <= 1000000; i++) {
+    for (int32_t i = 0; i < 1000000; i++) {
         acc += fib(n, memo);
     }
 
