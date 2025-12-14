@@ -8,7 +8,7 @@ proc fib(n: int32, memo: var seq[int32]): int32 {.inline.} =
 
 let n: int32 = 10
 var memo = newSeq[int32](n+1)
-for n in mitems(memo):
+for n in mitems memo:
   n = -1
 
 var acc: int32 = 0
